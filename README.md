@@ -82,7 +82,7 @@ Completing this assignment will help you understand and use:
 2. Clone your fork to your computer:
 
    ```bash
-   git clone https://github.com/YOUR-USERNAME/REPOSITORY-NAME.git
+   git clone https://github.com/ESA-CODE-GCTU/Assignment-1.git
    ```
 
 3. Open the cloned folder in your code editor.
