@@ -1,4 +1,93 @@
-.class{
-    width: 300px;
-    height: 300px;
+* {
+    box-sizing: border-box;
 }
+
+body {
+    background-color: #fff8e7;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    margin-top: 10px;
+}
+
+h2, h3 {
+    color: #8b4513;
+}
+
+a {
+    color: #8b4513;
+}
+
+header {
+    background-color: #8b4513;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+header p {
+    margin-bottom: 0;
+}
+
+nav {
+    background-color: #333333;
+    padding: 12px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #ffcc66;
+    color: #333333;
+}
+
+.taco {
+    font-size: 50px;
+    margin-right: 10px;
+}
+
+#name,
+#email {
+    width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+#submit,
+#reset {
+    width: 60px;
+    padding: 10px;
+    font-size: 13px;
+}
+
+figure{
+    text-align: center;
+}
+figcaption{
+    text-align: center;
+}
+
